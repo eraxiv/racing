@@ -1,0 +1,29 @@
+{
+  "name": "racing",
+  "version": "0.0.1",
+  "description": "Scrape and clean data from https://tatts.com/racing, and then proceed to run machine learning to predict possible outcomes",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js get"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eraxiv/racing.git"
+  },
+  "dependencies" : {
+      "mongoq" : "*",
+      "nice-json2csv" : "*",
+      "xml2js" : "*",
+      "csvtojson" : "*"
+  },  
+  "keywords": [
+    "racing",
+    "scrape",
+    "ml"
+  ],
+  "author": "eraxiv",
+  "license": "mit",
+  "bugs": {
+    "url": "https://github.com/eraxiv/racing/issues"
+  }
+}
